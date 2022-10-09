@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.applications.official">
+
+<uses-permission android:name="android.permission.INTERNET" />
+    
+    
+    <application
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_12wyp"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"        
+        android:theme="@style/AppTheme">
+      
+     <activity
+            android:name=".PlanActivity"
+            android:theme="@style/AppTheme.NoActionBar"> 
+       <intent-filter>
+  			 <action android:name="android.intent.action.MAIN" />
+               <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>   
+            
+       </activity>
+      
+              
+        <activity 
+            android:name=".MainActivity"> 		                  
+        </activity>    
+                        
+      
+         <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" /> 
+        
+         <activity
+            android:name=".storeActivity"
+           
+		    android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:theme="@style/AppTheme.NoActionBar" > 
+                                           
+            </activity>
+            
+         <activity
+            android:name=".CourseActivity"
+            android:theme="@style/AppTheme.NoActionBar" /> 
+        
+            
+          <activity
+              android:name=".First_Session_Activity"
+              android:theme="@style/AppTheme.NoActionBar" />
+        
+          <activity
+              android:name=".Second_Session_Activity"
+              android:theme="@style/AppTheme.NoActionBar" />
+
+          <activity
+              android:name=".Third_Session_Activity"
+              android:theme="@style/AppTheme.NoActionBar" />
+
+          <activity
+              android:name=".Activity_Team_Mailing"
+              android:theme="@style/AppTheme.NoActionBar" />
+
+		  <activity
+              android:name=".FSMActivity"
+              android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+              android:theme="@style/AppTheme.NoActionBar" />
+
+        
+        
+    </application>
+</manifest>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
