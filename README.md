@@ -10,4 +10,4 @@ theoretically and practically with in application and to track their progress. 
 
 ![Online learning App demo ](demo/ezgif.com-gif-maker.gif)
 
-![Online learning App demo ](demo/ezgif.com-gif-maker (1).gif)
+![Online learning App demo2](demo/ezgif.com-gif-maker (1).gif)
