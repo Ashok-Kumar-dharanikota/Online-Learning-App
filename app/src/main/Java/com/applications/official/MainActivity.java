@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity{
      String Unumber = unumber.getText().toString();
      String Upassward = upassward.getText().toString();
      
-     JavaMailAPI javaMailAPI = new JavaMailAPI(getApplicationContext(), "dakstar143@gmail.com","User-data",Uname+"\n"+Umail+"\n"+Unumber+"\n"+Upassward); 
+     JavaMailAPI javaMailAPI = new JavaMailAPI(getApplicationContext(), MyemailID,"User-Registered",Uname+"\n"+Umail+"\n"+Unumber+"\n"+Upassward); 
      JavaMailAPI javaMailAPI1 = new JavaMailAPI(getApplicationContext(),Umail,"Registration Successfull","Hello "+Uname+",\n"+"Welcome to the 12WYP Community🎊\n"+"We are so delightful to invite you to this Community.\n"+"please contact your guide for further details to start your journey with Us.\n\n"+"Regards\n"+"DAKstar\n"+"12WYP Community\n"+"A.One.Thoughts Inc");
         javaMailAPI.execute(); 
         javaMailAPI1.execute(); 
