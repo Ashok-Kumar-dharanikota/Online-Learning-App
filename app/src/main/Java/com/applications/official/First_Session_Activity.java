@@ -53,10 +53,7 @@ public class First_Session_Activity extends AppCompatActivity  {
      
      FSMAdapter fsmAdapter;
     
- //   private YouTubePlayerView Webvideo; 
-//   private CAdapter  movieAdapter; 
- 
- 
+
   private  Parcelable parcelable,parcelable1;
   private FSMmodel user;
    Bundle extras;
@@ -66,9 +63,8 @@ public class First_Session_Activity extends AppCompatActivity  {
     public static final String SHARED_PREF_NAMER = "mypref";
     public static final String KEY_POSITIONR = "Position";
     SharedPreferences  mysharedprefarance2;
-//    private RadioGroup enabledRadioGroup;
-//     private  RadioButton radioButton;
-//     private TextView Course;
+
+
    
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -76,74 +72,20 @@ public class First_Session_Activity extends AppCompatActivity  {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_first_session);
     
-         recyclerView = findViewById(R.id.recyclerView);
-	//	 Webvideo = findViewById(R.id.webvideo);
-              
-// getLifecycle().addObserver(Webvideo);
-
- //     enabledRadioGroup = findViewById(R.id.enabledRadioGroup);
-  //      Course = findViewById(R.id.courseS);
-
-
-     //       Course.setOnClickListener(this);
- 
-                         
-    
+         recyclerView = findViewById(R.id.recyclerView);                        
            initData(i); 
            initRecyclerView();  
   
 
 
          
-    /*     parcelable1  = getIntent().getParcelableExtra("DATE_KEY");
-           user = Parcels.unwrap(parcelable);  */ 
 
        
         
 }	
     
     
-   /*     @Override
-         public void onClick(View v){
-           switch(v.getId()){
-            case R.id.courseS:
-            if(!Course.getText().equals("Java")) {
-               Course.setText("Java"); 
-               i = 1;
-               
-             
-              
-              
-               
-                
-            }
-            else{
-                
-               Course.setText("Python");
-                i = 2; 
-               
-               
-              
-          
-            }
-           
-            break;
-            
-           
-           }
-            
-            
-        }*/
-       
-       
-      
-// https://www.youtube.com/embed/NBIUbTddde4"
-  
 
-  
-  
-  
-  
 private void initRecyclerView() {
     	
    	 setOnClickListener(); 
@@ -243,16 +185,9 @@ private void initRecyclerView() {
         F = new FSMmodel("DAY - 28","25mins","OOPS:Abstraction","OOPS:Polymorphism","OOPS:Encapsulation","5X0Y--92pMI","jg4MpYr1TBc","QFl9HhrpRFA",true);// "Action & Adventure", "2015");
         fsmList.add(F);  
           
-  /*       if(extras != null){  
-         Lockposition = extras.getInt("Position");
-         Lockstate[extras.getInt("Position")] = extras.getBoolean("Lock"); 
-         */
-      parcelable = Parcels.wrap(F);
-       }  
-    /*  
        
        else if(S==2){
-        fs 
+        
         FSMmodel F = new FSMmodel("DAY - 1","25mins","Python tutorial for beginners","Variables","Multiple Assignments ","6VElWbND-zg","dHcCbxTfwoU","W9VOiVkUazA",false); //,true);// "Action & Adventure", "2015");
         fsmList.add(F);
         F = new FSMmodel("DAY - 2","25mins","String Methods ","Type Casting","User input","Crw3rVFNwIM","2WZvl1R4A6g","DB9Cq6TSTuQ",Lock[1]); //,true);// "Action & Adventure", "2015");
@@ -312,239 +247,9 @@ private void initRecyclerView() {
         
         parcelable = Parcels.wrap(F); } */
         
-          
-  /*       if(extras != null){  
-         Lockposition = extras.getInt("Position");
-         Lockstate[extras.getInt("Position")] = extras.getBoolean("Lock"); 
-         */
-    
-     
-          
-        
-        
-        
-        
+           
       }   
         
         
     }
-
-
-/*   public void loop(){
-      int Lockposition = 0;
-        
-        
-        
-        for(int i =0;i<=27;i++){
-          
-          if(i<=Lockposition){
-             Lockstate[i] = false;
-              }
-		 
-         else{
-          Lockstate[i] = true;
-         
-             }  
-        }    
-   } */
-
-   
-   
-  
-  
-   
- 
-   //       boolean lock = true;
-/*	mysharedprefarance2 = getSharedPreferences(SHARED_PREF_NAMER,MODE_PRIVATE);
-     Lockposition = mysharedprefarance2.getInt(KEY_POSITIONR,0);
-     
-  	extras = getIntent().getExtras(); 
-     
-      for(int i=0;i<4;i++){
-       if(Lockposition != 0){   //extras != null ) {
-         if(i <= Lockposition){ // extras.getInt("Position")){
-          Lock[i] = false;  
-         }
-       else if(extras != null){ 
-           F.setLock(false);
-     Lock[extras.getInt("Position")] = F.getLock();
-     extras = null;
-         }  
-         else{
-     Lock[i] = true;    
-         }
-      }  
-      
-      else{
-     Lock[i] = true;    
-         } 
-      
-     }   */
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-0HCRua-4xFY
-MNLy8atLI3k
-qPY9jP2QYKM
-t35B5HjPm9Q
-6uuuWox-uW0
-j_q6NGOwDJo
-nZydkTQtSTk
-LpZmZs2_BC4
-GJ5LJnIEEYo
-Q7c2W7PEjfI
-lyRdPmXVpek
-hyydAO2qSXQ
-GhPZHvhvlsk
-q2SGW2VgwAM
-czw5TYk4H5U
-an59YHkdK9A
-J2_DHndMW9s
-mRIeUXhIAxg
-4Y83cUbDKZ8
-3p3gF8b4cN0
-MBbVq_FIYDA
-TeDlx2Klij0
-UYZXmgQgMKo
-Wh-2XqHsmmc
-2KzyvzeWFbQ
-3OAnWEhLZbU
-xZtTIm3fpfA
-YestSrXCqY8
-b8xNqP1IiU4
-gTEO5-MK7B0
-zwVywypN8LY
-3up-LltcfSw
-fcLDzKH_5XM
-28APRkI0jsM
-SgUcDk-ofWk
-OBabwRH0XUo
-Qj3GlL5ckQA
-3dEPY3HiPtI
-_14xnFI0Kmc
-YOhrIov7PZA
-lyoyTlltFVU
-l7ezyYD6V68
-x5AHtW9UuVo
-lxN3kUh1kJI
-g6Lj396e0t4
-5IVvj99yxsc
-0kvNBTcPTok
-vjR45AHBprk
-SGTtoHO6loo
-LI8KQ3pjQug
-W9_CLOth11A
-q8WDvrjPt0M
-Klp2Q462chU
-oT8tqRsK0oI
-bNU_iuo9Gzc
-
-      
-
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
