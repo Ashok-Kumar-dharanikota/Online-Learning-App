@@ -8,6 +8,8 @@ theoretically and practically with in application and to track their progress. 
 **UI design:**
  XML is used to create good interactive User interface and **UI designer App** helped me to design fastly.
 
-![Online learning App demo ](demo/ezgif.com-gif-maker.gif)
+![Online learning App demo ](Demo/demo1.gif)
 
-![Online learning App demo2](demo/ezgif.com-gif-maker(1).gif)
+![Online learning App demo2](Demo/demo2.gif)
+
+![Online learning App demo3](Demo/demo3.gif)
