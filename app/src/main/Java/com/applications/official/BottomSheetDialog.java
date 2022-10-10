@@ -25,8 +25,8 @@ public class BottomSheetDialog extends BottomSheetDialogFragment implements View
 
   private LinearLayout G1,G2,G3,G4,G5,G6,G7,G8,G9,G10,G11;
    Uri URI = null; 
-  private String[] Names = {"Ashok Kumar","Karimulla","Gulam Saroor","Chandhini Mubeena","DilKush","Arifa","Mani sai","Prakash Reddy","Naresh","Khaja Valli","Latheef"};
-  private String[] Emails ={"ashok81432@gmail.com","shaikkarimulla6139@gmail.com","gulamsaroor172@gmail.com","chandinimubeena02@gmail.com","Shaikdilkush078@gmail.com","shaikarifa809@gmail.com","manisaipapana2001@gmail.com","pr90102338@gmail.com","nareshmekala842@gmail.com","khajavalisk572@gmail.com","mohammadlatheef78@gmail.com"};  
+  private String[] Names = {};
+  private String[] Emails ={};  
   private static final int PICK_FROM_GALLERY = 101;
    
     public static final String KEY_MAILG = "mail1";
