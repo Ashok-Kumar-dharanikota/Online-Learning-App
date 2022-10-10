@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">12WYP official</string>
+    
+     <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    
+   <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    
+    
+</resources>
+
