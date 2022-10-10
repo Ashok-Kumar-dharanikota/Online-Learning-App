@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFFFF"
+    android:id="@+id/coordinator"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    
+   <ImageView
+android:layout_width="match_parent"
+android:layout_height="250dp"
+android:layout_alignParentTop="true"
+android:layout_alignParentStart="true"
+android:src="@mipmap/the_chosen_fish"
+android:scaleType="centerCrop"/>  
+    
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_centerInParent="true"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/ic_12wyp"/>
+    
+				<TextView
+                    android:layout_centerHorizontal="true"                                    
+                    android:layout_centerVertical="true"
+                    android:layout_below="@id/logo"
+                    style="@style/viewParent.headerText.NoMode"
+                    android:textColor="@color/colorPrimary"
+                    android:text="12WYP official!"/>            
+            
+    
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+

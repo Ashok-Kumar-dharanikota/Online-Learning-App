@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+
+	<com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/webvideoC"       
+        android:visibility="gone"        
+        android:layout_width="match_parent"        
+        android:layout_height="wrap_content"/> 
+
+<com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/webvideoJ"       
+        android:visibility="gone"        
+        android:layout_width="match_parent"        
+        android:layout_height="wrap_content"/> 
+
+<com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/webvideoP"       
+        android:visibility="gone"        
+        android:layout_width="match_parent"        
+        android:layout_height="wrap_content"/> 
+
+
+	<com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/webvideoS"       
+        android:visibility="gone"        
+        android:layout_width="match_parent"        
+        android:layout_height="wrap_content"/> 
+
+	<com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/webvideoE"       
+        android:visibility="gone"        
+        android:layout_width="match_parent"        
+        android:layout_height="wrap_content"/> 
+
+   <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/horizontalScrollView">       
+
+		<LinearLayout
+               android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    
+    <TextView
+        android:id="@+id/course_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        style="@style/viewParent.headerText.NoMode"
+        android:text="All Courses"
+        android:textColor="@color/darkTextColor"/>
+    
+    <ImageView
+        android:id="@+id/course_banner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/courses_image"/>
+
+ </RelativeLayout>
+
+
+
+
+
+
+
+
+    
+    <GridLayout
+        android:columnCount="2"
+        android:layout_below="@id/course_banner"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        
+        <androidx.cardview.widget.CardView
+            android:id="@+id/c_C"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            android:layout_width="170dp"
+            android:padding="8dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp">
+           
+           <ImageView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:src="@mipmap/ic_language_c"
+android:scaleType="centerCrop"/> 
+         
+            
+         </androidx.cardview.widget.CardView>
+        
+        
+         <androidx.cardview.widget.CardView
+             android:id="@+id/c_J"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            android:layout_width="170dp"
+            android:padding="8dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp">
+           
+           <ImageView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:src="@mipmap/ic_language_java"
+android:scaleType="centerCrop"/> 
+         
+            
+         </androidx.cardview.widget.CardView>
+      
+      
+       <androidx.cardview.widget.CardView
+           android:id="@+id/c_P"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            android:layout_width="170dp"
+            android:padding="8dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp">
+           
+           <ImageView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:src="@mipmap/ic_language_python"
+android:scaleType="centerCrop"/> 
+         
+            
+         </androidx.cardview.widget.CardView>
+      
+    
+   <androidx.cardview.widget.CardView
+            android:id="@+id/c_S"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            android:layout_width="170dp"
+            android:padding="8dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp">
+           
+          <ImageView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:src="@drawable/ic_aptitude"
+			android:scaleType="centerCrop"/> 
+         
+            
+         </androidx.cardview.widget.CardView>
+      
+     <androidx.cardview.widget.CardView
+            android:id="@+id/c_E"
+            android:layout_height="220dp"
+            android:layout_margin="10dp"
+            android:layout_width="170dp"
+            android:padding="8dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp">
+           
+           <ImageView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:src="@mipmap/ic_language_c"
+android:scaleType="centerCrop"/> 
+         
+            
+         </androidx.cardview.widget.CardView>
+    
+    
+    
+    </GridLayout>
+    
+    </LinearLayout>
+
+  </ScrollView>  
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

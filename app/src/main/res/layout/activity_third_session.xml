@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+                            android:id="@+id/f_title"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:text="1st Session of 12 WYP"
+                            android:textColor="#000000"
+                            android:textSize="27dp"
+                            android:textStyle="bold"/>
+                        
+                        <TextView
+                            android:id="@+id/about"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@id/f_title"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_width="wrap_content"
+                            android:text="In 1st session we will going to\ncover the theoritical concepts of\nProgramming"
+                            android:textColor="#808080"/>
+                        
+                        <TextView
+                            android:id="@+id/time"
+                            android:layout_below="@id/about"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="17dp"
+                            android:layout_width="wrap_content"
+                            android:text="Scheduled on: 01/04/2022"
+                            android:textColor="#0000FF"
+                            android:textStyle="bold"/>
+
+
+   
+    
+	<androidx.cardview.widget.CardView
+            android:id="@+id/view"
+            android:layout_below="@id/time"
+            android:layout_height="210dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="5dp"> 
+   
+  <ImageView 
+           android:id="@+id/banner"             
+           android:scaleType="centerCrop"
+           android:layout_height="match_parent"
+           android:layout_width="wrap_content"
+           android:src="@mipmap/first_12wyp"/>
+                        
+   
+            
+ </androidx.cardview.widget.CardView>           
+   
+  <androidx.cardview.widget.CardView
+            android:layout_below="@id/view"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:padding="8dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="5dp"> 
+            
+            
+		<androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recyclerView"
+           android:visibility="visible"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />  
+           
+            
+            
+  </androidx.cardview.widget.CardView>
+    
+    
+</RelativeLayout>
+
+

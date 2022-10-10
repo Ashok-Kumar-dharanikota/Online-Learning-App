@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    
+<androidx.cardview.widget.CardView
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:background="#6200EE"
+            android:backgroundTint="#6200EE"
+            android:padding="8dp"
+            app:cardCornerRadius="17dp"
+            app:cardElevation="5dp">
+    
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        
+  <!--      <ImageView
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/ic_launcher_round"/>  -->
+        
+        <TextView
+            android:id="@+id/uname"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@style/viewParent.headerText"
+            android:layout_centerVertical="true"
+            android:text="Ashok"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"/>
+        
+        <TextView
+            android:id="@+id/umail"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="#FFFFFF"
+            android:text="ashok81432@gmail.com"/>
+        
+    
+    </RelativeLayout>
+    
+
+</androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
+
+
+
+
+
