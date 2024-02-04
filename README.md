@@ -1,17 +1,19 @@
-# Online-learning-App
-An online learning Android application project for students to learn different programming courses  both
-theoretically and practically with in application and to track their progress. I builded this Android Application using **Android IDE**.
+# Online Learning App
 
-**Language used:**
-  I used Java programming language to build this project.
+This Android application project is designed to provide students with a comprehensive platform for learning various programming courses, covering both theoretical concepts and practical implementations. The app enables users to track their progress within the application.
 
-**UI design:**
- XML is used to create good interactive User interface and **UI designer App** helped me to design fastly.
+**Technology Stack:**
+- **Development Language:** Java
+- **IDE:** Android IDE (mobile app to build applications)
 
-**App Demo:**
+## UI Design
 
-![Online learning App demo ](Demo/demo1.gif)
+The application's user interface is crafted using XML to ensure an interactive and visually appealing design. The UI designer app was employed to expedite the design process.
 
-![Online learning App demo2](Demo/demo2.gif)
+## App Demo
 
-![Online learning App demo3](Demo/demo3.gif)
+Check out the application in action with the following resizable demos:
+
+| ![Online Learning App Demo 1](Demo/demo1.gif) | ![Online Learning App Demo 2](Demo/demo2.gif) | ![Online Learning App Demo 3](Demo/demo3.gif) |
+| --- | --- | --- |
+| *Online Learning App Demo 1* | *Online Learning App Demo 2* | *Online Learning App Demo 3* |
